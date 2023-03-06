@@ -58,7 +58,7 @@ h1{
   .container{
     max-width: 1440px;
     margin: 0 auto;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   .relat{
@@ -383,7 +383,7 @@ h1{
 
 
   .black-slash{
-    top:-176px;
+    top:561px;
     left: 0;
     mix-blend-mode: normal;
   }
@@ -491,9 +491,6 @@ h1{
         right: 148px;
       }
 
-      .rect-4{
-        display: none;
-      }
 
       .rect-5{
         width: 26px;
@@ -515,18 +512,10 @@ h1{
         top: 407px;
         right: 395px;
       }
-      
-      .ellipse-3{
-        display: none;
-      }
 
       .ellipse-4{
         top: 295px;
         left: 8px;
-      }
-
-      .ellipse-5{
-        display: none;
       }
 
       .ellipse-11{
@@ -586,7 +575,7 @@ h1{
       .black-slash{
         width: 488.32px;
         height: 488.32px;
-        top: -68.32px;
+        top: 411.68px;
         left: 0;
         mix-blend-mode: normal;
       }
@@ -625,14 +614,10 @@ h1{
         gap: 29px;
         padding: 4px 13px 0 0;
       }
-      
+
       .logo img {
         width: 84px;
         margin: 5px -12.75px 0 -6px;
-    }
-
-    .nav-links{
-        display: none;
     }
 
 
@@ -688,7 +673,7 @@ h1{
       .black-slash{
         width: 349.45px;
         height: 349.45px;
-        top: -62.59px;
+        top: 350.41px;
         left: -15px;
         mix-blend-mode: normal;
       }
