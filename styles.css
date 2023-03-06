@@ -56,14 +56,9 @@ h1{
   }
 
   .container{
-    max-width: 1467px;
-    padding: 0 100px;
-    margin: 0 auto;
-  }
-
-  .large-container{
     max-width: 1440px;
     margin: 0 auto;
+    overflow-x: hidden;
   }
 
   .relat{
@@ -77,9 +72,6 @@ h1{
   header{
     min-height: 102px;
     background-color: white;
-  }
-
-  header.container{
     padding: 0 100px 0 73px;
   }
 
@@ -156,22 +148,30 @@ h1{
     transform: rotate(45deg);
   }
 
+  .bg-wht{
+    background: #FFFFFF;
+  }
+
+  .bg-f4{
+    background: #F4F4F4;
+  }
+
   .rect-1{
     width: 57.90px;
     height: 57.90px;
     background-color: black;
-    top: 91.64px;
-    right: 153.89px;
+    top: 192.64px;
+    right: 151.89px;
   }
 
   .rect-2{
-    top: 31px;
+    top: 133px;
     left: 327px;
     background: #EFE1BC;
   }
 
   .rect-3{
-    top: 41px;
+    top: 143px;
     right: 359px;
     background: #F4F4F4;
   }
@@ -179,7 +179,7 @@ h1{
   .rect-4{
     width: 16px;
     height: 16px;
-    top: 95px;
+    top: 197px;
     left: 75px;
     background: #F4F4F4;
   }
@@ -187,16 +187,65 @@ h1{
   .rect-5{
     width: 40px;
     height: 40px;
-    top: 508px;
+    top: 610.88px;
     left: 172px;
     background: #F4BEBD;
   }
+
+  .rect-6{
+    width: 60.81px;
+    height: 60.81px;
+    top: 1526px;
+    right: 100px;
+    opacity: 0.31;
+  }
+
+  .rect-7{
+    width: 31px;
+    height: 31px;
+    top: 1904px;
+    right: 46px;
+    opacity: 0.42;
+  }
+
+  .rect-8{
+    width: 32px;
+    height: 32px;
+    top: 1366px;
+    right: 61px;
+    opacity: 0.64;
+  }
+
+  .rect-9{
+    width: 17px;
+    height: 17px;
+    top: 1535px;
+    left: 41px;
+    opacity: 0.34;
+  }
+
+  .rect-10{
+    width: 42px;
+    height: 42px;
+    top: 1984px;
+    left: 293px;
+    opacity: 0.3;
+  }
+
+  .rect-11{
+    width: 40px;
+    height: 40px;
+    top: 1764px;
+    left: 88.56px;
+    background: #000000;
+    opacity: 0.06;
+  }
+
 
   
   
   .ellipse{
     border-radius: 50%;
-    z-index: -1;
   }
 
   .ellipse-border{
@@ -212,7 +261,7 @@ h1{
   .ellipse-1{
     width: 37px;
     height: 37px;
-    top: 77px;
+    top: 179px;
     right: 605px;
     background: #D9F4F2;
   }
@@ -220,24 +269,52 @@ h1{
   .ellipse-2{
     width: 15px;
     height: 15px;
-    top: 522px;
+    top: 624px;
     right: 737px;
     background: #FFFFFF;
   }
 
   .ellipse-3{
-    top: -6px;
+    top: 96px;
     left: 32px;
+    z-index: -1;
   }
 
   .ellipse-4{
-    top: 354px;
+    top: 456px;
     left: 126px;
   }
 
   .ellipse-5{
-    top: 41px;
+    top: 143px;
     right: 100px;
+  }
+
+  .ellipse-6{
+    width: 38px;
+    height: 39px;
+    top: 1742px;
+    right: -9px;
+    background: #AFCBAD;
+  }
+
+  .ellipse-7{
+    top: 2126px;
+    left: 78px;
+    background: none;
+  }
+
+  .ellipse-8{
+    top: 1865px;
+    left: 224px;
+    background: none;
+  }
+
+  .ellipse-9{
+    width: 12px;
+    height: 12px;
+    top: 1893px;
+    right: 132px;
   }
 
   .hero{
@@ -276,18 +353,41 @@ h1{
     box-shadow: 0px 3px 16px 0px #00000029;
   }
 
+  .video::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: #F7F7F7;
+    width: 100%;
+    top: 0;
+    z-index: -2;
+  }
+
   .video{
     width: 100%;
-    background-color: #F7F7F7;
     justify-content: center;
     padding: 130px 0 83px 0;
-    overflow: hidden;
   }
+
+  .video::after{
+    content: "";
+    position: absolute;
+    height: 1059.87px;
+    background: #CAEAC7;
+    width: 100%;
+    top: 464px;
+    transform: skewY(-9.4deg);
+    transform-origin: top right;
+    z-index: -1;
+  }
+
+
   .black-slash{
     top:-176px;
     left: 0;
     mix-blend-mode: normal;
   }
+
   .video-text{
     top: 50%;
     left: 50%;
@@ -311,14 +411,22 @@ h1{
     margin-top: 61px;
   }
 
+  .white-slash{
+    top: 1584px;
+    right: 0;
+  }
+
+  
+
 
   @media (max-width:768px){
 
+    .tab-hid{
+      display: none;
+    }
+
     header{
         min-height: 66px;
-      }
-
-    header.container{
         padding: 0 16px 0 0;
       }
 
@@ -361,11 +469,6 @@ h1{
         padding: 6px 13.5px;
       }
 
-      .large-container{
-        max-width: 768px;
-        margin: 0 auto;
-      }
-
       .rect-30{
         width: 20px;
         height: 20px;
@@ -374,17 +477,17 @@ h1{
       .rect-1{
         width: 37.8px;
         height: 37.8px;
-        top: 54.63px;
+        top: 121.63px;
         right: 13.51px;
       }
 
       .rect-2{
-        top: 20px;
+        top: 86px;
         left: 128px;
       }
 
       .rect-3{
-        top: 27px;
+        top: 93px;
         right: 148px;
       }
 
@@ -395,21 +498,21 @@ h1{
       .rect-5{
         width: 26px;
         height: 26px;
-        top: 332px;
+        top: 398px;
         left: 26.52px;
       }
 
       .ellipse-1{
         width: 24px;
         height: 24px;
-        top: 50px;
+        top: 116px;
         right: 308px;
       }
 
       .ellipse-2{
         width: 10px;
         height: 10px;
-        top: 341px;
+        top: 407px;
         right: 395px;
       }
       
@@ -418,7 +521,7 @@ h1{
       }
 
       .ellipse-4{
-        top: 229px;
+        top: 295px;
         left: 8px;
       }
 
@@ -474,6 +577,11 @@ h1{
       .video{
         padding: 85px 0 55px 0;
       }
+      .video::after{
+        height: 692.19px;
+        top: 303px;
+        transform: skewY(-10.6deg);
+      }
 
       .black-slash{
         width: 488.32px;
@@ -498,20 +606,26 @@ h1{
         height: 347px;
       }
 
+      .white-slash{
+        top: 1034px;
+        right: -321px;
+        width: 757px;
+        height: 757px;
+      }
+
   }
 
   @media (max-width:320px){
 
+    .mo-hid{
+      display: none;
+    }
     header{
         min-height: auto;
         gap: 29px;
-        padding-top: 9px;
-      }
-
-    header.container{
         padding: 4px 13px 0 0;
       }
-
+      
       .logo img {
         width: 84px;
         margin: 5px -12.75px 0 -6px;
@@ -521,9 +635,6 @@ h1{
         display: none;
     }
 
-    .hidden{
-        display: none;
-    }
 
     .hero{
         display: block;
