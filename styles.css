@@ -259,7 +259,7 @@ h1{
     padding: 23px 2px 35px 0;
   }
 
-  .try-btn, .demo-btn{
+  .try-btn, .demo-btn, .learn-btn{
     font-size: 21px;
     font-weight: 900;
     line-height: 25px;
@@ -276,6 +276,40 @@ h1{
     box-shadow: 0px 3px 16px 0px #00000029;
   }
 
+  .video{
+    width: 100%;
+    background-color: #F7F7F7;
+    justify-content: center;
+    padding: 130px 0 83px 0;
+    overflow: hidden;
+  }
+  .black-slash{
+    top:-176px;
+    left: 0;
+    mix-blend-mode: normal;
+  }
+  .video-text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+
+  .video-text h2{
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+
+  .learn-btn{
+    border: none;
+    padding: 20px 32px;
+    margin-top: 61px;
+  }
 
 
   @media (max-width:768px){
@@ -419,7 +453,7 @@ h1{
         padding: 23px 7px 35px 0;
       }
     
-      .try-btn, .demo-btn{
+      .try-btn, .demo-btn, .learn-btn{
         font-size: 13px;
         font-weight: 900;
         line-height: 15px;
@@ -436,7 +470,33 @@ h1{
         width: 445px;
         box-shadow: 0px 3px 16px 0px #00000029;
       }
+
+      .video{
+        padding: 85px 0 55px 0;
+      }
+
+      .black-slash{
+        width: 488.32px;
+        height: 488.32px;
+        top: -68.32px;
+        left: 0;
+        mix-blend-mode: normal;
+      }
     
+      .video-text h2{
+        font-size: 38px;
+        line-height: 51px;
+      }
+    
+      .learn-btn{
+        padding: 13px 24px;
+        margin-top: 41px;
+      }
+      
+      .video-img img{
+        width: 616px;
+        height: 347px;
+      }
 
   }
 
@@ -508,6 +568,33 @@ h1{
       .demo-btn{
         padding: 11px 27px;
         margin-left: 10px;
+      }
+
+      .video{
+        padding: 23px 0 276px 0;
+      }
+
+      .black-slash{
+        width: 349.45px;
+        height: 349.45px;
+        top: -62.59px;
+        left: -15px;
+        mix-blend-mode: normal;
+      }
+    
+      .video-text h2{
+        font-size: 22px;
+        line-height: 29px;
+      }
+    
+      .learn-btn{
+        padding: 7px 13px;
+        margin-top: 20.56px;
+      }
+      
+      .video-img img{
+        width: 304px;
+        height: 171px;
       }
 
     
