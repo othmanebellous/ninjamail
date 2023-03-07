@@ -524,7 +524,7 @@ h1{
 
   .list{
     max-width: 904px;
-    margin: 40px auto 75px;
+    margin: 40px auto 0;
     text-align: center;
   }
 
@@ -573,7 +573,23 @@ h1{
     border: none;
   }
 
+  .partners{
+    padding: 75px 0 146px 0;
+  }
 
+  .partners h2{
+    font-family: Playfair Display;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  .logos{
+    max-width: 926px;
+    margin: 0 auto;
+  }
   
 
 
@@ -898,7 +914,7 @@ h1{
 
       .list{
         max-width: 591px;
-        margin: 25px auto 50px;
+        margin: 25px auto 0px;
       }
     
       .list h2{
@@ -931,13 +947,43 @@ h1{
       .submit{
         padding: 13px 21.5px 14px;
       }
+
+      .partners{
+        padding: 50px 0 95px 0;
+      }
     
+      .partners h2{
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 33px;
+      }
+    
+      .logos{
+        max-width: 605px;
+      }
+
+      .logo-1{
+        width: 104px;
+        height: 22px;
+      }
+      .logo-2{
+        width: 55px;
+        height: 29px;
+      }
+      .logo-3 img{
+        width: 94px;
+        height: 31px;
+      }
+      .logo-4{
+        width: 92px;
+        height: 17px;
+      }
+      .logo-5{
+        width: 91px;
+        height: 15px;
+      }
 
   }
-
-  
-
-
 
   @media (max-width:320px){
 
@@ -1158,7 +1204,7 @@ h1{
 
       .list{
         max-width: 239px;
-        margin: 59px auto 54px;
+        margin: 59px auto 0;
       }
     
       .list h2{
@@ -1190,6 +1236,51 @@ h1{
     
       .submit{
         padding: 13px 21px 14px 22px;
+      }
+
+      .partners h2{
+        font-size: 26px;
+        margin-bottom: 36px;
+      }
+    
+      .logos{
+        max-width: 237px;
+        height: 137px;
+        flex-wrap: wrap;
+        align-content: space-between;
+      }
+
+      .logo-1{
+        width: 104px;
+        height: 22px;
+        order: 3;
+      }
+      .logo-2{
+        width: 55px;
+        height: 29px;
+        order: 1;
+        margin-left: 22px;
+      }
+      .logo-3{
+        order: 5;
+        width: 100%;
+        text-align: center;
+      }
+      .logo-3 img{
+        width: 94px;
+        height: 31px;
+      }
+
+
+      .logo-4{
+        width: 92px;
+        height: 17px;
+        order: 4;
+      }
+      .logo-5{
+        width: 91px;
+        height: 15px;
+        order: 2;
       }
 
   }
