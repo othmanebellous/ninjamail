@@ -421,7 +421,7 @@ h1{
 
   .features{
     max-width: 1098px;
-    margin: 98px auto 0;
+    margin: 98px auto 133px;
   }
 
   .features-text{
@@ -474,6 +474,105 @@ h1{
   line-height: 26px;
   padding: 24px 44px 0 0;
   }
+
+  .members{
+    max-width: 1089px;
+    margin: 0 auto;
+  }
+
+  .box{
+    width: 341px;
+    height: 239px;
+    box-shadow: 0px 8px 16px 0px #00000029;
+
+  }
+
+  .box::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #000000 -32.5%, rgba(84, 84, 84, 0.0001) 67.78%);
+  }
+
+  .box img{
+    width: 100%;
+  }
+
+  .box-text{
+    left: 25px;
+    bottom: 20px;
+    z-index: 1;
+  }
+
+  .box-text h3{
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+
+  .box-text p{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 5px;
+  }
+
+  .list{
+    max-width: 904px;
+    margin: 40px auto 75px;
+    text-align: center;
+  }
+
+  .list h2{
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 48px;
+  }
+
+  .list form{
+    max-width: 668px;
+    margin: 44px auto 0;
+    align-items: flex-start;
+  }
+  
+  .email-holder input, .submit{
+    font-family:Raleway;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 1.04px;
+  }
+
+  .email-holder input{
+    padding: 19px 158px 21px 25px;;
+    border: 1px solid #9F9F9F;
+    border-radius: 5px;
+  }
+
+  ::placeholder{
+    color: #000000;
+  }
+
+  .email-holder p{
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 1.04px;
+    text-align: left;
+    color: #4BA87D;
+    padding: 20px 0 0 45px;
+  }
+
+  .submit{
+    font-weight: 900;
+    padding: 19px 30px 21px 30px;
+    border: none;
+  }
+
 
   
 
@@ -706,7 +805,7 @@ h1{
     
       .features{
         max-width: 710px;
-        margin: 35px auto 0;
+        margin: 35px auto 87px;
       }
     
       .features-text{
@@ -764,6 +863,75 @@ h1{
       line-height: 16px;
       padding: 17px 29px 0 0;
       }
+
+      .members{
+        max-width: 708px;
+        margin: 0 auto;
+      }
+    
+      .box{
+        width: 223px;
+        height: 157px;
+      }
+    
+    
+      .box img{
+        width: 100%;
+      }
+    
+      .box-text{
+        left: 18px;
+        bottom: 14px;
+        z-index: 1;
+      }
+    
+      .box-text h3{
+        font-size: 22px;
+        line-height: 26px;
+      }
+    
+      .box-text p{
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 5px;
+      }
+
+      .list{
+        max-width: 591px;
+        margin: 25px auto 50px;
+      }
+    
+      .list h2{
+      font-size: 28px;
+      line-height: 36px;
+      }
+    
+      .list form{
+        max-width: 436px;
+        margin-top: 22px;
+      }
+      
+      .email-holder input, .submit{
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0.65px;
+      }
+    
+      .email-holder input{
+        padding: 12px 106px 15px 16px;
+      }
+    
+      .email-holder p{
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0.65px;
+        padding: 13px 0 0 16px;
+      }
+    
+      .submit{
+        padding: 13px 21.5px 14px;
+      }
+    
 
   }
 
@@ -918,7 +1086,7 @@ h1{
 
       .features{
         max-width: 302px;
-        margin: 0px auto 0;
+        margin: 0px auto 56px;
         flex-direction: column;
         position: relative;
       }
@@ -981,6 +1149,47 @@ h1{
       font-size: 12px;
       line-height: 16px;
       padding: 17px 29px 0 0;
+      }
+
+      .members{
+        height: 513px;
+        flex-direction: column;
+      }
+
+      .list{
+        max-width: 239px;
+        margin: 59px auto 54px;
+      }
+    
+      .list h2{
+      font-size: 26px;
+      line-height: 36px;
+      }
+    
+      .list form{
+       flex-direction: column;
+       align-items: center;
+       height: 111px;
+      }
+      
+      .email-holder input, .submit{
+        font-size: 13px;
+        line-height: 15px;
+      }
+    
+      .email-holder input{
+        padding: 13px 50px 14px 14px;
+      }
+    
+      .email-holder p{
+        font-size: 12px;
+        line-height: 14px;
+        padding: 6px 0 7px;
+        text-align: center;
+      }
+    
+      .submit{
+        padding: 13px 21px 14px 22px;
       }
 
   }
