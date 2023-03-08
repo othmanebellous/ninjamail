@@ -273,7 +273,6 @@ h1, h2{
     height: 15px;
     top: 624px;
     right: 737px;
-    background: #FFFFFF;
   }
 
   .ellipse-3{
@@ -372,8 +371,13 @@ h1, h2{
 
 
   .video{
+    width: 944px;
+    height: 531px;
+    background-image: url(images/video-img.png);
+    background-size: cover;
     justify-content: center;
-    padding: 130px 0 83px 0;
+    margin: 130px auto 0;
+    box-shadow: 0px 3px 16px 0px #00000029;
   }
 
 
@@ -384,9 +388,6 @@ h1, h2{
   }
 
   .video-text{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
   }
 
@@ -409,7 +410,7 @@ h1, h2{
 
   .features{
     max-width: 1098px;
-    margin: 98px auto 133px;
+    margin: 180px auto 133px;;
   }
 
   .features-text{
@@ -848,7 +849,9 @@ h1, h2{
     
 
       .video{
-        padding: 85px 0 55px 0;
+        width: 616px;
+        height: 347px;
+        margin: 85px auto 0;
       }
 
       .black-slash{
@@ -869,10 +872,6 @@ h1, h2{
         margin-top: 41px;
       }
       
-      .video-img img{
-        width: 616px;
-        height: 347px;
-      }
 
       .white-slash{
         top: 1061px;
@@ -885,7 +884,7 @@ h1, h2{
     
       .features{
         max-width: 710px;
-        margin: 35px auto 87px;
+        margin: 112px auto 87px;
       }
     
       .features-text{
@@ -1182,7 +1181,9 @@ h1, h2{
       }
 
       .video{
-        padding: 23px 0 33px 0;
+        width: 304px;
+        height: 171px;
+        margin: 19px auto 0;
       }
 
       .black-slash{
@@ -1206,15 +1207,11 @@ h1, h2{
         letter-spacing: 0.3px;
       }
       
-      .video-img img{
-        width: 304px;
-        height: 171px;
-      }
 
       .green-bg{
         height: 643px;
         top: 783px;
-        transform: skewY(-20deg);
+        transform: skewY(-26deg);
       }
 
       .rect-8{
@@ -1259,16 +1256,16 @@ h1, h2{
       }
 
       .white-slash{
-        top: 1064px;
+        top: 1087px;
         width: 645px;
         height: 757px;
         right: -144px;
-        transform: rotate(18deg);
+        transform: rotate(12deg);
       }
 
       .features{
         max-width: 302px;
-        margin: 0px auto 56px;
+        margin: 33px auto 56px;
         flex-direction: column;
         position: relative;
       }
@@ -1296,7 +1293,7 @@ h1, h2{
     
       .card p{
         line-height: 16px;
-        padding: 0 29px 7px 0;
+        padding: 0 29px 1px 0;
         
       }
     
