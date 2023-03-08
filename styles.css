@@ -549,6 +549,7 @@ h1, h2{
   .submit{
     padding: 19px 30px 21px 30px;
     border: none;
+    cursor: pointer;
   }
 
   .partners{
