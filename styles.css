@@ -21,7 +21,7 @@ h1{
     line-height: 71px;
 }
 
-.ff-playfair, h2{
+h1, h2{
   font-family: 'Playfair Display';
 }
 
