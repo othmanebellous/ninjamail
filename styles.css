@@ -21,12 +21,12 @@ a{
 }
 
 h1{
-    font-family: 'Playfair Display';
     font-size: 59px;
-    font-weight: 900;
     line-height: 71px;
-    letter-spacing: 0px;
+}
 
+.ff-playfair, h2{
+  font-family: 'Playfair Display';
 }
 
 .flex {
@@ -42,6 +42,7 @@ h1{
   
   .flex-start {
     display: flex;
+    justify-content: space-between;
     align-items: flex-start;
   }
   
@@ -79,8 +80,15 @@ h1{
     padding: 0 100px 0 73px;
   }
 
-  .logo a{
+  .fs-900{
     font-weight: 900;
+  }
+
+  .w-100{
+    width: 100%;
+  }
+
+  .logo a{
     font-size: 35px;
     line-height: 41px;
     color: black;
@@ -336,13 +344,11 @@ h1{
     font-size: 19px;
     font-weight: 500;
     line-height: 26px;
-    letter-spacing: 0px;
     padding: 23px 2px 35px 0;
   }
 
   .try-btn, .demo-btn, .learn-btn{
     font-size: 21px;
-    font-weight: 900;
     line-height: 25px;
     letter-spacing: 1.04px;
     padding: 20px 48px;
@@ -358,17 +364,13 @@ h1{
   }
 
   .grey-bg{
-    position: absolute;
     background: #F7F7F7;
-    width: 100%;
     height: 744px;
     top: 737px;
     z-index: -1;
   }
 
   .green-bg{
-    position: absolute;
-    width: 100%;
     background: #CAEAC7;
     height: 815.87px;
     transform: skewY(-9.6deg);
@@ -379,7 +381,6 @@ h1{
 
 
   .video{
-    width: 100%;
     justify-content: center;
     padding: 130px 0 83px 0;
   }
@@ -396,15 +397,11 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 100%;
   }
 
   .video-text h2{
-    font-family: Playfair Display;
     font-size: 60px;
-    font-weight: 900;
     line-height: 80px;
-    letter-spacing: 0px;
     color: #FFFFFF;
   }
 
@@ -463,9 +460,7 @@ h1{
   
 
   .features-text h2{
-    font-family: Playfair Display;
     font-size: 44px;
-    font-weight: 900;
     line-height: 48px;
   }
 
@@ -497,10 +492,6 @@ h1{
     background: linear-gradient(0deg, #000000 -32.5%, rgba(84, 84, 84, 0.0001) 67.78%);
   }
 
-  .box img{
-    width: 100%;
-  }
-
   .box-text{
     left: 25px;
     bottom: 20px;
@@ -509,7 +500,6 @@ h1{
 
   .box-text h3{
     font-size: 34px;
-    font-weight: 900;
     line-height: 40px;
     color: #FFFFFF;
   }
@@ -522,23 +512,20 @@ h1{
     padding-top: 5px;
   }
 
-  .list{
+  .join-list{
     max-width: 904px;
     margin: 40px auto 0;
     text-align: center;
   }
 
-  .list h2{
-  font-family: Playfair Display;
+  .join-list h2{
   font-size: 44px;
-  font-weight: 900;
   line-height: 48px;
   }
 
-  .list form{
+  .join-list form{
     max-width: 668px;
     margin: 44px auto 0;
-    align-items: flex-start;
   }
   
   .email-holder input, .submit{
@@ -568,7 +555,6 @@ h1{
   }
 
   .submit{
-    font-weight: 900;
     padding: 19px 30px 21px 30px;
     border: none;
   }
@@ -578,9 +564,7 @@ h1{
   }
 
   .partners h2{
-    font-family: Playfair Display;
     font-size: 44px;
-    font-weight: 900;
     line-height: 48px;
     text-align: center;
     margin-bottom: 70px;
@@ -598,9 +582,7 @@ h1{
   }
 
   .get-started h2{
-    font-family: Playfair Display;
     font-size: 60px;
-    font-weight: 900;
     line-height: 80px;
     color: #FFFFFF;
     margin-bottom: 47px;
@@ -608,7 +590,6 @@ h1{
 
   .pick-btn{
     font-size: 21px;
-    font-weight: 900;
     line-height: 25px;
     letter-spacing: 1.04px;
     padding: 19px 30px 21px 33px;
@@ -631,7 +612,6 @@ h1{
   }
 
   .part-1{
-    align-items: flex-start;
     margin-bottom: 109px;
   }
 
@@ -644,27 +624,20 @@ h1{
   .foot-logo a{
     font-size: 26px;
     line-height: 31px;
-    font-weight: 900;
     color: black;
     align-items: flex-start;
   }
 
   .links-holder{
     max-width: 563px;
-    flex: 1;
-    align-items: flex-start;
   }
 
   .left-links{
     max-width: 255px;
-    flex: 1;
-    align-items: flex-start;
   }
 
   .right-links{
     max-width: 250px;
-    flex: 1;
-    align-items: flex-start;
   }
 
   .links-holder a{
@@ -688,7 +661,6 @@ h1{
 
   .terms{
     max-width: 273px;
-    flex: 1;
   }
   
 
@@ -844,9 +816,12 @@ h1{
         font-size: 38px;
         line-height: 46px;
       }
+
+      .left-side p, .card p, .card a, .features-text P, .box-text p, .links-holder a{
+        font-size: 12px;
+      }
     
       .left-side p{
-        font-size: 12px;
         font-weight: 500;
         line-height: 16px;
         padding: 23px 7px 35px 0;
@@ -854,7 +829,6 @@ h1{
     
       .try-btn, .demo-btn, .learn-btn{
         font-size: 13px;
-        font-weight: 900;
         line-height: 15px;
         letter-spacing: 0.65px;
         padding: 13px 34px;
@@ -945,15 +919,12 @@ h1{
       }
     
       .card p{
-        font-size: 12px;
         line-height: 16px;
         padding: 0 20px 7px 0;
         
       }
     
       .card a{
-        display: block;
-        font-size: 12px;
         font-weight: 800;
         line-height: 14px;
         color: #4BA87D;
@@ -968,14 +939,11 @@ h1{
       }
     
       .features-text h2{
-        font-family: Playfair Display;
         font-size: 28px;
-        font-weight: 900;
         line-height: 31px;
       }
     
       .features-text P{
-      font-size: 12px;
       line-height: 16px;
       padding: 17px 29px 0 0;
       }
@@ -1007,22 +975,21 @@ h1{
       }
     
       .box-text p{
-        font-size: 12px;
         line-height: 14px;
         padding-top: 5px;
       }
 
-      .list{
+      .join-list{
         max-width: 591px;
         margin: 25px auto 0px;
       }
     
-      .list h2{
+      .join-list h2{
       font-size: 28px;
       line-height: 36px;
       }
     
-      .list form{
+      .join-list form{
         max-width: 436px;
         margin-top: 22px;
       }
@@ -1095,7 +1062,6 @@ h1{
     
       .pick-btn{
         font-size: 13px;
-        font-weight: 900;
         line-height: 15px;
         letter-spacing: 0.65px;
         padding: 13px 23px 14px;
@@ -1110,9 +1076,6 @@ h1{
         bottom: 66px;
       }
 
-      .part-1{
-        align-items: flex-start;
-      }
     
       .foot-logo img{
         width: 60px;
@@ -1123,33 +1086,24 @@ h1{
       .foot-logo a{
         font-size: 16px;
         line-height: 19px;
-        font-weight: 900;
         color: black;
-        align-items: flex-start;
         margin-left: -22px;
       }
     
       .links-holder{
         max-width: 368px;
-        flex: 1;
-        align-items: flex-start;
       }
     
       .left-links{
         max-width: 165px;
-        flex: 1;
-        align-items: flex-start;
       }
     
       .right-links{
         max-width: 162px;
-        flex: 1;
-        align-items: flex-start;
       }
     
       .links-holder a{
         display: inline-block;
-        font-size: 12px;
         font-weight: 700;
         line-height: 14px;
         color: #000000;
@@ -1166,7 +1120,6 @@ h1{
     
       .terms{
         max-width: 174px;
-        flex: 1;
       }
       
   }
@@ -1180,6 +1133,10 @@ h1{
         min-height: auto;
         gap: 29px;
         padding: 4px 13px 0 0;
+      }
+
+      .logo a{
+        margin-left: -2px;
       }
 
       .logo img {
@@ -1220,17 +1177,19 @@ h1{
         width: 300px;
     }
 
+
+
     .try-btn, .demo-btn{
-        font-size: 13px;
-        font-weight: 900;
-        line-height: 15px;
-        letter-spacing: 0.65px;
         padding: 13px 39px;
       }
     
       .demo-btn{
         padding: 11px 27px;
         margin-left: 10px;
+      }
+
+      .grey-bg {
+        top: 413px;
       }
 
       .video{
@@ -1253,6 +1212,9 @@ h1{
       .learn-btn{
         padding: 7px 13px;
         margin-top: 20.56px;
+        font-size: 6px;
+        line-height: 7px;
+        letter-spacing: 0.3px;
       }
       
       .video-img img{
@@ -1261,7 +1223,7 @@ h1{
       }
 
       .green-bg{
-        height: 630px;
+        height: 643px;
         top: 783px;
         transform: skewY(-20deg);
       }
@@ -1299,7 +1261,6 @@ h1{
 
       .rect-12{
         display: block;
-        position: absolute;
         width: 27.37px;
         height: 25.99px;
         top: 1220px;
@@ -1346,15 +1307,12 @@ h1{
       }
     
       .card p{
-        font-size: 12px;
         line-height: 16px;
-        padding: 0 20px 7px 0;
+        padding: 0 29px 7px 0;
         
       }
     
       .card a{
-        display: block;
-        font-size: 12px;
         font-weight: 800;
         line-height: 14px;
         color: #4BA87D;
@@ -1367,18 +1325,15 @@ h1{
       }
 
       .card-1 p {
-        padding: 0 14px 12px 0;
+        padding: 0 21px 12px 0;
       }
     
       .features-text h2{
-        font-family: Playfair Display;
         font-size: 28px;
-        font-weight: 900;
         line-height: 31px;
       }
     
       .features-text P{
-      font-size: 12px;
       line-height: 16px;
       padding: 17px 29px 0 0;
       }
@@ -1388,25 +1343,20 @@ h1{
         flex-direction: column;
       }
 
-      .list{
+      .join-list{
         max-width: 239px;
         margin: 59px auto 0;
       }
     
-      .list h2{
+      .join-list h2{
       font-size: 26px;
       line-height: 36px;
       }
     
-      .list form{
+      .join-list form{
        flex-direction: column;
        align-items: center;
        height: 111px;
-      }
-      
-      .email-holder input, .submit{
-        font-size: 13px;
-        line-height: 15px;
       }
     
       .email-holder input{
@@ -1485,10 +1435,6 @@ h1{
       }
     
       .pick-btn{
-        font-size: 13px;
-        font-weight: 900;
-        line-height: 15px;
-        letter-spacing: 0.65px;
         padding: 13px 23px 14px;
       }
 
