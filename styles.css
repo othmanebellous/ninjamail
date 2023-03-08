@@ -41,12 +41,7 @@ h1, h2{
     justify-content: space-between;
     align-items: flex-start;
   }
-  
-  .col-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
+
 
   .grow{
     flex: 1;
@@ -70,12 +65,6 @@ h1, h2{
     display: none;
   }
 
-  header{
-    min-height: 102px;
-    background-color: white;
-    padding: 0 100px 0 73px;
-  }
-
   .fs-900{
     font-weight: 900;
   }
@@ -83,6 +72,25 @@ h1, h2{
   .w-100{
     width: 100%;
   }
+
+  .inl-blck{
+    display: inline-block;
+  }
+
+  .bg-wht{
+    background: #FFFFFF;
+  }
+
+  .bg-f4{
+    background: #F4F4F4;
+  }
+
+  header{
+    min-height: 102px;
+    background-color: white;
+    padding: 0 100px 0 73px;
+  }
+
 
   .logo a{
     font-size: 35px;
@@ -105,7 +113,6 @@ h1, h2{
   }
 
   .nav-link{
-    display: inline-block;
     font-weight: 800;
     font-size: 17px;
     line-height: 20px;
@@ -125,9 +132,7 @@ h1, h2{
     transform: translateX(-50%);
   }
 
-  .inl-blck{
-    display: inline-block;
-  }
+  
 
   .grn-btn{
     background-color: #4BA87D;
@@ -156,14 +161,6 @@ h1, h2{
     transform: rotate(45deg);
   }
 
-  .bg-wht{
-    background: #FFFFFF;
-  }
-
-  .bg-f4{
-    background: #F4F4F4;
-  }
-
   .rect-1{
     width: 57.90px;
     height: 57.90px;
@@ -181,7 +178,6 @@ h1, h2{
   .rect-3{
     top: 143px;
     right: 359px;
-    background: #F4F4F4;
   }
 
   .rect-4{
@@ -189,7 +185,6 @@ h1, h2{
     height: 16px;
     top: 197px;
     left: 75px;
-    background: #F4F4F4;
   }
 
   .rect-5{
@@ -263,7 +258,6 @@ h1, h2{
   .ellipse-11{
     width: 11px;
     height: 11px;
-    background: #FFFFFF;
   }
 
   .ellipse-1{
@@ -343,7 +337,8 @@ h1, h2{
     padding: 23px 2px 35px 0;
   }
 
-  .try-btn, .demo-btn, .learn-btn{
+  
+  .btn{
     font-size: 21px;
     line-height: 25px;
     letter-spacing: 1.04px;
@@ -823,7 +818,7 @@ h1, h2{
         padding: 23px 7px 35px 0;
       }
     
-      .try-btn, .demo-btn, .learn-btn{
+      .btn{
         font-size: 13px;
         line-height: 15px;
         letter-spacing: 0.65px;
@@ -837,7 +832,6 @@ h1, h2{
     
       .right-side img{
         width: 445px;
-        box-shadow: 0px 3px 16px 0px #00000029;
       }
 
 
@@ -911,7 +905,6 @@ h1, h2{
     
       .card img{
         width: 100%;
-        box-shadow: 0px 8px 16px 0px #00000029;
       }
     
       .card p{
@@ -1299,7 +1292,6 @@ h1, h2{
     
       .card img{
         width: 100%;
-        box-shadow: 0px 8px 16px 0px #00000029;
       }
     
       .card p{
