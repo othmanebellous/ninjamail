@@ -25,6 +25,21 @@ h1, h2{
   font-family: 'Playfair Display';
 }
 
+header{
+  min-height: 102px;
+  background-color: white;
+  padding: 0 100px 0 73px;
+}
+
+nav{
+  max-width: 672px;
+  gap: 31px;
+}
+
+nav ul{
+  max-width: 473px;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -85,12 +100,6 @@ h1, h2{
     background: #F4F4F4;
   }
 
-  header{
-    min-height: 102px;
-    background-color: white;
-    padding: 0 100px 0 73px;
-  }
-
 
   .logo a{
     font-size: 35px;
@@ -100,16 +109,6 @@ h1, h2{
 
   .logo img{
     margin: 8px -21.23px 0 0;
-  }
-
-
-  nav{
-    max-width: 672px;
-    gap: 31px;
-  }
-
-  nav ul{
-    max-width: 473px;
   }
 
   .nav-link{
@@ -244,8 +243,6 @@ h1, h2{
     opacity: 0.06;
   }
 
-
-  
   
   .ellipse{
     border-radius: 50%;
