@@ -615,6 +615,7 @@ nav ul{
     line-height: 31px;
     color: black;
     align-items: flex-start;
+    margin-left: -23px;
   }
 
   .links-holder{
