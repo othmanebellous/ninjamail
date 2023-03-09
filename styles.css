@@ -1206,9 +1206,9 @@ nav ul{
       
 
       .green-bg{
-        height: 643px;
+        height: 629px;
         top: 783px;
-        transform: skewY(-26deg);
+        transform: skewY(-26.8deg);
       }
 
       .rect-8{
@@ -1222,9 +1222,10 @@ nav ul{
       .rect-7{
         width: 20px;
         height: 21px;
-        top: 1370px;
+        top: 1380px;
         right: 38px;
         opacity: 0.64;
+        background-color: #F4F4F4;
       }
     
       .rect-10{
@@ -1239,15 +1240,15 @@ nav ul{
         width: 27.37px;
         height: 25.99px;
         top: 1066px;
-        left: -19px;
+        left: -12px;
       }
 
       .rect-12{
         display: block;
         width: 27.37px;
         height: 25.99px;
-        top: 1220px;
-        right: 10.34px;
+        top: 1240px;
+        right: 13.34px;
         opacity: 0.04;
         background-color: #000000;
       }
