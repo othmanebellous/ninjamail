@@ -100,6 +100,10 @@ h1{
   background: #F4F4F4;
 }
 
+.transition-03s{
+  transition: 0.3s;
+}
+
 .logo{
       padding: 19px 0;
   }
@@ -152,6 +156,7 @@ h1{
   background-color: #4BA87D;
   color: white;
   border: 3px solid #4BA87D;
+  transition: 0.3s;
 }
 
 
@@ -159,6 +164,8 @@ h1{
   color: #4BA87D;
   background-color: white;
   border: 3px solid #4BA87D;
+  transition: 0.3s;
+
 }
 
 .sign-up{
@@ -264,6 +271,7 @@ h1{
       max-width: 1098px;
       margin: 377px auto 0;
       position: relative;
+      z-index: 1;
     }
   
     .features-text{
@@ -360,6 +368,7 @@ h1{
       max-width: 904px;
       margin: 40px auto 0;
       text-align: center;
+      position: relative;
     }
   
     .join-list h2{
@@ -400,9 +409,10 @@ h1{
     }
   
     .submit{
-      padding: 19px 30px 21px 30px;
+      padding: 19px 30px 19px 30px;
       border: none;
       cursor: pointer;
+      border: 3px solid #4BA87D;
     }
 
     .partners{
@@ -419,6 +429,15 @@ h1{
     .logos{
       max-width: 926px;
       margin: 0 auto;
+    }
+
+    .logos img{
+      cursor: pointer;
+    }
+
+    .logos img:hover{
+      transform: scale(1.1);
+      transition: 0.3s;
     }
 
     .get-started{
@@ -439,7 +458,11 @@ h1{
       line-height: 25px;
       letter-spacing: 1.04px;
       padding: 19px 30px 21px 33px;
-      border: none;
+      border: 3px solid white;
+    }
+
+    .pick-btn:hover{
+      border-color: #FFFFFF;
     }
 
     footer.container{
